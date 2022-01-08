@@ -1,1 +1,113 @@
-p{}
+
+body {
+    background-color: #EEE9E3;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #C5A586;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 0 20% 0 20%;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    margin: 10px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin: 10px;
+}
+
+nav {
+    background-color: #E7D6C6;
+    margin: 20px;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+article {
+    /* background-color: #E7D6C6; */
+    text-align: center;
+    margin: 20px 20% 20px 20%;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+article h3 {
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+article nav {
+    width: 100px;
+}
+
+ul, ol {
+    text-align: left;
+    margin-left: 40%;
+}
+
+p {
+    text-align: left;
+}
+
+.logo {
+    background-color: #C5A586;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.image {
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+nav:hover {
+    background-color: #ddc4ac;
+}
+
+a:link {
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #000000;
+}
+a:active {
+    color: #000000;
+}

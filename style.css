@@ -1,43 +1,50 @@
 
+/* sets the background color, font, and font color for the entire page */
 body {
     background-color: #EEE9E3;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
 }
 
+/* separates the header from the navigation links */
 header {
     margin-bottom: 10px;
 }
 
+/* sets the backrgound color and padding, and centers the text for the footer */
 footer {
     background-color: #C5A586;
     padding: 5px;
-}
-
-footer p {
     text-align: center;
 }
 
+
+/* gets rid of the underline of nagivation links */
 a {
     text-decoration: none;
 }
 
+/* sets the horizontal break margins for a smaller hr */
 hr {
     margin: 0 20% 0 20%;
 }
 
+/* sets the font weight, font size, and margin for h1 */
 h1 {
     font-weight: normal;
     font-size: 50px;
     margin: 10px;
 }
 
+/* sets the font weight, font size, and margin for h2 inside header */
 header h2 {
     font-weight: normal;
     font-size: 25px;
     margin: 10px;
 }
 
+/* sets the background color, dimensions, margin and padding, border radius for rounded corners,
+aligns the text, and display for navigation tabs */
 nav {
     background-color: #E7D6C6;
     margin: 20px;
@@ -48,57 +55,66 @@ nav {
     display: inline-block;
 }
 
+/* centers the text and sets the margin padding for the articles */
 article {
-    /* background-color: #E7D6C6; */
     text-align: center;
     margin: 20px 20% 20px 20%;
     padding: 25px;
-    border-radius: 20px;
 }
 
+/* gets rid of the bold and sets the margin and font size for h3 inside article */
 article h3 {
     font-weight: normal;
     margin: 0 0 20px 0;
     font-size: 25px;
 }
 
+/* sets the width for the navigation tabs in contact */
 article nav {
     width: 100px;
 }
 
+/* aligns the text left and sets the margin for ordered and unordered lists */
 ul, ol {
     text-align: left;
     margin-left: 40%;
 }
 
+/* all text inside p will be aligned left */
 p {
     text-align: left;
 }
 
+/* a class for the main header that sets the background color, padding, and centers the text */
 .logo {
     background-color: #C5A586;
     padding: 10px;
     text-align: center;
 }
 
+/* a class that centers all of the navigation tabs to the center of the page */
 .navigation {
     text-align: center;
 }
 
+/* a class for the image that sets the height, border radius, and margin */
 .image {
-    width: 250px;
+    height: 250px;
     border-radius: 10px;
     margin: 20px;
 }
 
+/* a class that centers the text */
 .txt-center {
     text-align: center;
 }
 
+/* nav pseudoclass that changes the color of the navigation tabs when hovered */
 nav:hover {
     background-color: #ddc4ac;
 }
 
+/* a pseudoclasses that set the navigation links to be black colored regardless of status */
 a:link {
     color: #000000;
 }
